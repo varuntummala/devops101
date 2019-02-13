@@ -1,12 +1,12 @@
 pipeline {
     agent any
     tools {
-        maven 'maven-3.3.9'
-        jdk 'OpenJDK8'
+        maven 'null'
+        jdk 'null'
     }
     
 }
-stage {
+stages {
     stage('Initialize'){
         steps {
             echo "PATH = ${PATH}"
